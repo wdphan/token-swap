@@ -61,7 +61,7 @@ contract TokenSwap {
         amount2 = _amount2;
     }
 
-    function Swap() public {
+    function swap() public {
         // require one of owners to initiate
         require(msg.sender == owner1 || msg.sender == owner2, "Not authorized");
         require(
