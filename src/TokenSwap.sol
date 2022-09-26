@@ -44,7 +44,7 @@ contract TokenSwap {
     address public owner2;
     uint256 public amount2;
 
-    // allow creator to determin wwwwwwdaswayyfujyfjyfjyhfjyhfjfjhgfjh
+    // allow creator to determine inputs
     constructor(
         address _token1,
         address _owner1,
